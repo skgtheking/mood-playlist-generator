@@ -4,27 +4,27 @@ This project analyzes your facial expressions from a short video clip to detect 
 
 ## 🚀 Features
 
-- 😄 Real-time mood detection using facial expressions
-- 🧠 Deep learning powered by FER (Facial Expression Recognition)
-- 🎵 Dynamic Spotify playlist generation via Spotify Web API
-- 🎥 Upload a video or record from webcam
-- ⚡ Full-stack app with FastAPI (backend) + React (frontend)
+- 😄 Real-time mood detection using facial expressions  
+- 🧠 Deep learning powered by FER (Facial Expression Recognition)  
+- 🎵 Dynamic Spotify playlist generation via Spotify Web API  
+- 🎥 Upload a video or record from webcam  
+- ⚡ Full-stack app with FastAPI (backend) + React (frontend)  
 
 ## 🧰 Tech Stack
 
-- **Frontend**: React.js, HTML/CSS
-- **Backend**: FastAPI, Python
-- **AI/ML**: `fer`, `tensorflow`, `facenet-pytorch`
-- **Video Processing**: `moviepy`
-- **Authentication**: Spotify OAuth
-- **Other**: Uvicorn, Axios, dotenv
+- **Frontend**: React.js, HTML/CSS  
+- **Backend**: FastAPI, Python  
+- **AI/ML**: `fer`, `tensorflow`, `facenet-pytorch`  
+- **Video Processing**: `moviepy`  
+- **Authentication**: Spotify OAuth  
+- **Other**: Uvicorn, Axios, dotenv  
 
 ## 📸 How it works
 
-1. Upload a video clip of your face (2–5 seconds).
-2. The backend extracts frames and analyzes them for emotions using FER.
-3. Based on the dominant emotion (e.g., happy, sad, angry), a playlist is generated using Spotify API.
-4. The playlist is displayed in the UI, ready to play!
+1. Upload a video clip of your face (2–5 seconds).  
+2. The backend extracts frames and analyzes them for emotions using FER.  
+3. Based on the dominant emotion (e.g., happy, sad, angry), a playlist is generated using Spotify API.  
+4. The playlist is displayed in the UI, ready to play!  
 
 ## 🛠️ Setup Instructions
 
@@ -73,19 +73,15 @@ REACT_APP_SPOTIFY_CLIENT_ID=your_spotify_client_id
 
 ## 🧪 Example Moods Supported
 
-- Happy
-- Sad
-- Angry
-- Surprise
-- Neutral
-- Disgust
-- Fear
+- Happy  
+- Sad  
+- Angry  
+- Surprise  
+- Neutral  
+- Disgust  
+- Fear  
 
 Each mood maps to a curated Spotify playlist.
-
-## 🖼️ Screenshots (optional)
-
-_You can add UI screenshots here if needed._
 
 ## 📝 License
 
